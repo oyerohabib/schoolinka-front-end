@@ -1,7 +1,7 @@
-import { Button } from "@material-tailwind/react";
+import NavbarSection from "./components/NavbarSection";
 
 function App() {
-  return <Button>Button</Button>;
+  return <NavbarSection />;
 }
 
 export default App;
