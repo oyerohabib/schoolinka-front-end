@@ -1,9 +1,7 @@
+import { Button } from "@material-tailwind/react";
+
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
-  );
+  return <Button>Button</Button>;
 }
 
 export default App;
