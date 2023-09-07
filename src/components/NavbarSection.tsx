@@ -8,8 +8,8 @@ import {
 const NavbarSection = () => {
   return (
     <>
-      <Navbar className="mx-auto  px-4 py-3 shadow-none">
-        <div className="flex flex-wrap items-center justify-between gap-y-4 text-blue-gray-900">
+      <Navbar className="shadow-none m-0 p-0">
+        <div className="flex flex-wrap items-center justify-between gap-y-4 text-blue-gray-900 py-3">
           <Typography variant="h3" className="mr-4 ml-2 cursor-pointer py-1.5">
             ToDo
           </Typography>
@@ -26,8 +26,6 @@ const NavbarSection = () => {
           </div>
         </div>
       </Navbar>
-
-      <hr />
     </>
   );
 };
