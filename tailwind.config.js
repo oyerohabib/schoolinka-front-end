@@ -7,10 +7,12 @@ module.exports = withMT({
       backgroundColor: {
         primary: "rgba(63, 91, 246, 1.0)",
         "primary-hover": "rgba(63, 91, 200, 1.0)",
+        secondary: "#EAECF0",
       },
       textColor: {
         primary: "#3F5BF6",
         "primary-hover": "rgba(63, 91, 200, 1.0)",
+        secondary: "#EAECF0",
       },
     },
   },

@@ -1,5 +1,6 @@
 import NavbarSection from "./components/NavbarSection";
 import Header from "./components/Header";
+import CalendarTaskSection from "./components/CalendarTaskSection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <hr />
       <div className="container mx-auto">
         <Header />
+        <CalendarTaskSection />
       </div>
     </>
   );
