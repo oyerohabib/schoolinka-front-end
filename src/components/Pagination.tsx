@@ -5,12 +5,12 @@ import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
 export function CircularPagination() {
   const [active, setActive] = React.useState(1);
 
-  const getItemProps = (index: any) => ({
-    variant: active === index ? "filled" : "text",
-    color: "gray",
-    onClick: () => setActive(index),
-    className: "rounded-full",
-  });
+  //   const getItemProps = (index: any) => ({
+  //     variant: active === index ? "filled" : "text",
+  //     color: "gray",
+  //     onClick: () => setActive(index),
+  //     className: "rounded-full",
+  //   });
 
   const next = () => {
     if (active === 5) return;
